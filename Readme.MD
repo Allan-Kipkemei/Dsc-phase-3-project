@@ -6,21 +6,18 @@ The primary goal of this project is to leverage a database containing detailed i
 
 file structure
 
-your_project_name/
-├── code_checkpoints/
-│   ├── main/  # For visualization code
-│   └── models/  # For modeling code
-├── Images/
-│   ├── image.PNG
-│   ├── image-1.PNG
-│   ├── image-2.PNG
-│   ├── image-3.PNG
-│   └── image-4.PNG
-├── pdfs/
-├── README.md
-├── .gitattributes
-├── .gitignore
-└── .vscode/
+* `your_project_name/`: This is the main directory for your project. Replace it with your actual project name.
+* `code_checkpoints/`: This folder stores code at different stages of development.
+    * `main/`: This subfolder contains code for visualizations.
+    * `models/`: This subfolder contains code for building and manipulating models.
+* `Images/`: This folder stores any images used in your project.
+* `pdfs/`: This folder can store any project-related PDFs.
+* `README.md` (optional): This file provides an overview of your project, including setup instructions and usage information.
+* `.gitattributes` (optional): This file helps configure how Git manages specific file types.
+* `.gitignore` (optional): This file specifies files or patterns that Git should exclude from version control.
+* `.vscode/` (optional): This folder can store settings specific to Visual Studio Code, a popular code editor.
+
+
 ## main
 
 ## Business
