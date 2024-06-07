@@ -50,20 +50,24 @@ The performance of each model was evaluated based on the following metrics:
 Feature importance analysis was also performed to identify which variables had the most significant impact on the likelihood of an arrest.
 
 Evaluating the models on multiple metrics ensures a comprehensive assessment of their performance. While accuracy provides a general measure of model performance, precision and recall offer insights into how well the model handles imbalanced classes. The AUC-ROC, in particular, is useful for understanding the trade-offs between true positive and false positive rates, helping to select a model that balances sensitivity and specificity.
+# Modeling
 
-## Modeling
 Various classification algorithms were employed to build predictive models, including:
 
-1. **Logistic Regression**: A linear model for binary classification.
-2. ![alt text](image-3.png)
+**Logistic Regression:** A linear model for binary classification.
+![Logistic Regression](image-3.png)
 
-3. **Decision Trees**: A non-linear model that splits data based on feature values.
-![alt text](image-1.png)
+**Decision Trees:** A non-linear model that splits data based on feature values.
+![Decision Trees](image-1.png)
 
-1. **Random Forests**: An ensemble method that combines multiple decision trees to improve performance.
-2. ![alt text](image-4.png)
+**Random Forests:** An ensemble method that combines multiple decision trees to improve performance.
+![Random Forests](image-4.png)
 
-3. **KNN Confusion** ![alt text](6.png)
+**KNN Confusion Matrix:** A visualization of confusion matrix for K-Nearest Neighbors (KNN) algorithm.
+![KNN Confusion Matrix](image-2.png)
+
+These models were evaluated and compared to determine their performance in predicting arrest outcomes.
+
 
 
 
