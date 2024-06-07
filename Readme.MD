@@ -1,4 +1,4 @@
-# Stop and Arrest Prediction Project
+# Traffic Stops & Arrests Prediction Project
 ![alt text](image.png)
 
 ## Overview
@@ -78,8 +78,8 @@ Another avenue for future work is the deployment of the predictive model in a re
 Finally, ongoing research and development in this area should focus on ethical considerations and community engagement. Ensuring that the predictive tools are used in a manner that respects civil liberties and promotes transparency is crucial. Engaging with community stakeholders and incorporating their perspectives into the development and deployment of these tools can help in building trust and ensuring that the tools are used responsibly and effectively.
 
 ## References
-- GitHub repository containing the dataset and analysis: [Insert GitHub link]
-- Seattle Police Department Terry Stops Dataset: [Insert data source link]
-- Relevant literature on Terry Stops and predictive policing: [Insert references]
+- GitHub repository containing the dataset and analysis: https://github.com/Allan-Kipkemei/Dsc-phase-3-project
+- Seattle Police Department Terry Stops Dataset: https://www.kaggle.com/datasets/city-of-seattle/seattle-terry-stops
+-
 
 This comprehensive analysis not only addresses the key questions but also provides a solid foundation for improving police practices through data-driven insights. By continuing to refine these models and incorporate new data, we can enhance the effectiveness and safety of law enforcement operations.
