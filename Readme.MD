@@ -54,16 +54,16 @@ Evaluating the models on multiple metrics ensures a comprehensive assessment of 
 
 Various classification algorithms were employed to build predictive models, including:
 
-**Logistic Regression:** A linear model for binary classification.
+# Logistic Regression:** A linear model for binary classification.
 ![Logistic Regression](image-3.png)
 
-**Decision Trees:** A non-linear model that splits data based on feature values.
+# Decision Trees:** A non-linear model that splits data based on feature values.
 ![Decision Trees](image-1.png)
 
-**Random Forests:** An ensemble method that combines multiple decision trees to improve performance.
+# Random Forests:** An ensemble method that combines multiple decision trees to improve performance.
 ![Random Forests](image-4.png)
 
-**KNN Confusion Matrix:** A visualization of confusion matrix for K-Nearest Neighbors (KNN) algorithm.
+# KNN Confusion Matrix:** A visualization of confusion matrix for K-Nearest Neighbors (KNN) algorithm.
 ![KNN Confusion Matrix](image-2.png)
 
 These models were evaluated and compared to determine their performance in predicting arrest outcomes.
