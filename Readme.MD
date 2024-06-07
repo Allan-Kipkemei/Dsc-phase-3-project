@@ -18,7 +18,6 @@ file structure
 * `.vscode/` (optional): This folder can store settings specific to Visual Studio Code, a popular code editor.
 
 
-## main
 
 ## Business
 
