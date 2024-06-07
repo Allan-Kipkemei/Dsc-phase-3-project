@@ -28,16 +28,6 @@ The diversity of the variables included in the dataset allows for a nuanced anal
 
 Moreover, the temporal aspect provided by the 'Reported Date' variable allows for the analysis of trends over time. This can uncover seasonal patterns or shifts in policing practices that might influence the likelihood of arrests. Understanding these temporal dynamics is important for developing strategies that are responsive to changes in the environment and that can anticipate future trends.
 
-## Modeling
-Various classification algorithms were employed to build predictive models, including:
-
-1. **Logistic Regression**: A linear model for binary classification.
-2. **Decision Trees**: A non-linear model that splits data based on feature values.
-3. **Random Forests**: An ensemble method that combines multiple decision trees to improve performance.
-
-The models were trained and evaluated using metrics such as accuracy, precision, recall, and the Area Under the Receiver Operating Characteristic Curve (AUC-ROC). Hyperparameter tuning was conducted to optimize model performance.
-
-The selection of these models was based on their ability to handle different types of data and their interpretability. Logistic regression, being a linear model, provides clear insights into the influence of individual variables on the outcome. Decision trees and random forests, on the other hand, are better suited for capturing complex interactions between variables. By comparing the performance of these models, we can select the one that offers the best trade-off between accuracy and interpretability.
 
 ### Data Preparation
 Data cleaning involved handling missing values, correcting inconsistencies, and transforming variables into formats suitable for analysis. This ensured the quality and integrity of the data, making it ready for modeling.
@@ -60,6 +50,27 @@ The performance of each model was evaluated based on the following metrics:
 Feature importance analysis was also performed to identify which variables had the most significant impact on the likelihood of an arrest.
 
 Evaluating the models on multiple metrics ensures a comprehensive assessment of their performance. While accuracy provides a general measure of model performance, precision and recall offer insights into how well the model handles imbalanced classes. The AUC-ROC, in particular, is useful for understanding the trade-offs between true positive and false positive rates, helping to select a model that balances sensitivity and specificity.
+
+## Modeling
+Various classification algorithms were employed to build predictive models, including:
+
+1. **Logistic Regression**: A linear model for binary classification.
+2. ![alt text](image-3.png)
+
+3. **Decision Trees**: A non-linear model that splits data based on feature values.
+![alt text](image-1.png)
+
+1. **Random Forests**: An ensemble method that combines multiple decision trees to improve performance.
+2. ![alt text](image-4.png)
+
+3. **KNN Confusion** ![alt text](image-2.png)
+
+
+
+The models were trained and evaluated using metrics such as accuracy, precision, recall, and the Area Under the Receiver Operating Characteristic Curve (AUC-ROC). Hyperparameter tuning was conducted to optimize model performance.
+
+The selection of these models was based on their ability to handle different types of data and their interpretability. Logistic regression, being a linear model, provides clear insights into the influence of individual variables on the outcome. Decision trees and random forests, on the other hand, are better suited for capturing complex interactions between variables. By comparing the performance of these models, we can select the one that offers the best trade-off between accuracy and interpretability.
+
 
 ## Conclusion
 This project demonstrates the application of data science techniques to a real-world problem with significant societal implications. By predicting the likelihood of an arrest during a Terry Stop and identifying key influencing factors, this research provides valuable insights that can enhance police officer preparedness and contribute to more effective and informed policing strategies. The structured approach following the OSEMN process ensures a thorough and replicable analysis, paving the way for future research and applications in this area.
