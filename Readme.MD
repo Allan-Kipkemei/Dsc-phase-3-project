@@ -4,6 +4,25 @@
 ## Overview
 The primary goal of this project is to leverage a database containing detailed information on Terry Stops conducted by Seattle police officers. The objective is to perform a classification analysis to predict whether an arrest is likely to occur following a Terry Stop. This predictive capability can serve as a valuable tool for police officers, enabling them to better prepare for potential outcomes during a stop based on specific variables present at the time of the stop. Such insights can enhance officer safety, improve decision-making, and foster more effective policing strategies.
 
+file structure
+
+your_project_name/
+├── code_checkpoints/
+│   ├── main/  # For visualization code
+│   └── models/  # For modeling code
+├── Images/
+│   ├── image.PNG
+│   ├── image-1.PNG
+│   ├── image-2.PNG
+│   ├── image-3.PNG
+│   └── image-4.PNG
+├── pdfs/
+├── README.md
+├── .gitattributes
+├── .gitignore
+└── .vscode/
+## main
+
 ## Business
 
 ### Business Understanding
@@ -79,9 +98,23 @@ The selection of these models was based on their ability to handle different typ
 ## Conclusion
 This project demonstrates the application of data science techniques to a real-world problem with significant societal implications. By predicting the likelihood of an arrest during a Terry Stop and identifying key influencing factors, this research provides valuable insights that can enhance police officer preparedness and contribute to more effective and informed policing strategies. The structured approach following the OSEMN process ensures a thorough and replicable analysis, paving the way for future research and applications in this area.
 
-The findings from this project can be instrumental in developing targeted interventions and policies aimed at reducing unnecessary arrests and improving community relations. By understanding the factors that lead to arrests, law enforcement agencies can implement changes that promote fairness and transparency in policing practices. This project also highlights the potential for data-driven decision-making to enhance the effectiveness and safety of law enforcement operations.
+After evaluating the performance of four classification models on predicting the outcome of Terry Stops, the Random Forests model emerged as the most accurate, achieving an accuracy of 87.35%. The Decision Tree model followed closely behind with an accuracy of 79.96%, followed by Logistic Regression at 86.92%, and KNN at 86.72%.
 
-Moreover, the methodologies and insights from this project can be generalized to other cities and contexts. As law enforcement agencies increasingly turn to data analytics to inform their strategies, the approach demonstrated here can serve as a blueprint for similar initiatives. By continuing to refine these models and incorporating new data, we can make meaningful strides in improving the effectiveness and fairness of policing practices across different settings.
+Using the Random Forest model, we can predict with 87.19% accuracy whether a Terry Stop will result in an arrest. The most influential factors in this model include the precinct and the presence of an arrest flag. The top five features are:
+
+1. Arrest Flag given
+2. Arrest Flag not given
+3. Unknown precinct
+4. West Precinct
+5. Frisk Flag given
+
+### Recommendations:
+
+1. **Training Officers:** Provide training to officers on discerning when it is appropriate to make an arrest during a Terry Stop versus when it might be better to wait, as this is a key indicator of arrests.
+
+2. **Precinct Information:** Ensure the precinct information is accurately recorded for all Terry Stops to better predict the likelihood of an arrest.
+
+3. **Frisk Procedures:** Train officers on the appropriate circumstances for conducting a "frisk," as this is another significant indicator of arrests.
 
 ## Future Work
 Future work could expand on this project by incorporating additional data sources, such as demographic information or historical crime data, to further refine the predictive model. Collaboration with law enforcement agencies could provide practical insights and facilitate the implementation of these predictive tools in real-world policing scenarios.
