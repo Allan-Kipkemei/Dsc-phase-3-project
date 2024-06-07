@@ -63,7 +63,7 @@ Various classification algorithms were employed to build predictive models, incl
 1. **Random Forests**: An ensemble method that combines multiple decision trees to improve performance.
 2. ![alt text](image-4.png)
 
-3. **KNN Confusion** ![alt text](image-2.png)
+3. **KNN Confusion** ![alt text](6.png)
 
 
 
