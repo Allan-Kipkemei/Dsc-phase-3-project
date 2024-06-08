@@ -4,18 +4,19 @@
 ## Overview
 The primary goal of this project is to leverage a database containing detailed information on Terry Stops conducted by Seattle police officers. The objective is to perform a classification analysis to predict whether an arrest is likely to occur following a Terry Stop. This predictive capability can serve as a valuable tool for police officers, enabling them to better prepare for potential outcomes during a stop based on specific variables present at the time of the stop. Such insights can enhance officer safety, improve decision-making, and foster more effective policing strategies.
 
-file structure
+Folder structure 
 
-* `your_project_name/`: This is the main directory for your project. Replace it with your actual project name.
+
+* `DSC phase 03 project/`: This is the main directory for your project. Replace it with your actual project name.
 * `code_checkpoints/`: This folder stores code at different stages of development.
-    * `main/`: This subfolder contains code for visualizations.
-    * `models/`: This subfolder contains code for building and manipulating models.
+    * `main/`: This file contains clean code for visualizations.
+    * `models/`: This file contains code for building and manipulating models.
 * `Images/`: This folder stores any images used in your project.
 * `pdfs/`: This folder can store any project-related PDFs.
-* `README.md` (optional): This file provides an overview of your project, including setup instructions and usage information.
-* `.gitattributes` (optional): This file helps configure how Git manages specific file types.
-* `.gitignore` (optional): This file specifies files or patterns that Git should exclude from version control.
-* `.vscode/` (optional): This folder can store settings specific to Visual Studio Code, a popular code editor.
+* `README.md` : This file provides an overview of your project, including setup instructions and usage information.
+* `.gitattributes` : This file helps configure how Git manages specific file types.
+* `.gitignore` : This file specifies files or patterns that Git should exclude from version control.
+* `.vscode/` : This folder can store settings specific to Visual Studio Code, a popular code editor.
 
 
 
