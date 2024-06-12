@@ -2,7 +2,7 @@
 ![alt text](image.png)
 
 ## Overview
-The primary goal of this project is to leverage a database containing detailed information on Terry Stops conducted by Seattle police officers. The objective is to perform a classification analysis to predict whether an arrest is likely to occur following a Terry Stop. This predictive capability can serve as a valuable tool for police officers, enabling them to better prepare for potential outcomes during a stop based on specific variables present at the time of the stop. Such insights can enhance officer safety, improve decision-making, and foster more effective policing strategies.
+The primary goal of this project is to leverage datasets containing detailed information on Terry Stops conducted by Seattle police officers. The objective is to perform a classification analysis to predict whether an arrest is likely to occur following a Terry Stop. This predictive capability can serve as a valuable tool for police officers, enabling them to better prepare for potential outcomes during a stop based on specific variables present at the time of the stop. Such insights can enhance officer safety, improve decision-making, and foster more effective policing strategies.
 
 Folder structure 
 
