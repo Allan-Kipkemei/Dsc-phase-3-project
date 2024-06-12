@@ -1,4 +1,4 @@
-# Traffic Stops & Arrests Prediction Project
+# Traffic Stops and arrests Prediction Project
 ![alt text](image.png)
 
 ## Overview
